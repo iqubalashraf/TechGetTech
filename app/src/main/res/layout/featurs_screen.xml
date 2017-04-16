@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3">
+    <TextView
+        android:id="@+id/some_feature_of_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Some Features of App"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/full_description"
+        android:layout_below="@id/some_feature_of_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="You can view your job here, by just pressing view order button and can change your status"
+        android:textColor="#ff0000"
+        android:textStyle="normal"
+        android:textSize="17sp"/>
+    <ImageView
+        android:id="@+id/snapshot1"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/full_description"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tech1"/>
+    <ImageView
+        android:id="@+id/snapshot2"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/full_description"
+        android:layout_toRightOf="@id/snapshot1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tech2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/snapshot1"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentRight="true"
+        android:onClick="onCallLoginScreen"/>
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/snapshot1"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="onCallWelcomeScreen"/>
+    <ImageView
+        android:id="@+id/snapshot3"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/full_description"
+        android:layout_toRightOf="@id/back2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/tech3"/>
+
+</RelativeLayout>

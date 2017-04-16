@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3">
+
+    <ImageView
+        android:id="@+id/icon_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_success"/>
+    <TextView
+        android:id="@+id/text_sucsess"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/icon_success"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#0000ff"
+        android:layout_height="wrap_content"
+        android:text="Congratulation! you have successfully registred"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_sucsess"
+        android:layout_marginTop="70dp"
+        android:text="Continue"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:onClick="mainActivityTechnician"
+        android:background="@drawable/buttons"/>
+</RelativeLayout>

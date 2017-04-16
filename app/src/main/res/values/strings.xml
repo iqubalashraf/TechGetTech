@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TechGetTech</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="customerDropDownList">
+        <item>Electrician</item>
+        <item>Technician</item>
+        <item>Water Technician</item>
+        <item>Computer Engg</item>
+        <item>Computer Technician</item>
+        <item>Plumber</item>
+        <item>Food Supplier</item>
+    </string-array>
+</resources>

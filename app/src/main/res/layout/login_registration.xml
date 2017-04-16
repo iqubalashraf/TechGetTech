@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Already Registred ?"/>
+
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="LogIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:background="@drawable/buttons"
+        android:onClick="loginActivity"/>
+
+    <TextView
+        android:id="@+id/donthaveaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/customer"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Don't have an account ?"/>
+    <Button
+        android:id="@+id/technician"
+        android:layout_below="@id/donthaveaccount"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="SingUP"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttons"
+        android:onClick="singupActivity"/>
+</RelativeLayout>
